@@ -1,0 +1,93 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	cout << "\x1b[94m[1]Русские слова \n";
+	cout << "\x1b[94m[2]Английские слова \n";
+	cout << "\x1b[94m[3]Выйти \n";
+
+	int a = 1;
+	int num;
+	int wordnumb;
+	cout << "Выберите число: ";
+	cin >> num;
+	int _;
+
+	switch (a) {
+	case 1: 
+		cout << "1 - Стол \n";
+		cout << "2 - Стул \n";
+		cout << "3 - Ручка \n";
+		cout << "4 - Карандаш \n";
+		cout << "5 - Глаз \n";
+		cout << "6 - Год \n";
+		cout << "7 - Месяц \n";
+		cout << "8 - День \n";
+		cout << "9 - Время \n";
+		cout << "10 - Дом \n";
+		cout << "11 - Оружие \n";
+		cout << "12 - Игра \n";
+		cout << "13 - Победа \n";
+		cout << "14 - Нога \n";
+		cout << "15 - Рука \n";
+
+		cout << "\x1b[95m[+] Переводчик русских слов \n";
+		cout << "Выберите номер слова: ";
+		cin >> wordnumb;
+	
+
+		if (wordnumb == 1) {
+			cout << "Table";
+		}
+		else if (wordnumb == 2) {
+			cout << "Chair";
+		}
+		else if (wordnumb == 3) {
+			cout << "Pen";
+		}
+		else if (wordnumb == 4) {
+			cout << "Pencil";
+		}
+		else if (wordnumb == 5) {
+			cout << "Eye";
+		}
+		else if (wordnumb == 6) {
+			cout << "Year";
+		}
+		else if (wordnumb == 7) {
+			cout << "Month";
+		}
+		else if (wordnumb == 8) {
+			cout << "Day";
+		}
+		else if (wordnumb == 9) {
+			cout << "Time";
+		}
+		else if (wordnumb == 10) {
+			cout << "House";
+		}
+		else if (wordnumb == 11) {
+			cout << "Weapon";
+		}
+		else if (wordnumb == 12) {
+			cout << "Game";
+		}
+		else if (wordnumb == 13) {
+			cout << "Victory";
+		}
+		else if (wordnumb == 14) {
+			cout << "Leg";
+		}
+		else if (wordnumb == 15) {
+			cout << "Arm";
+		}
+		cin >> _;
+		break;
+		
+
+	
+		return 0;
+	}
+
+}
